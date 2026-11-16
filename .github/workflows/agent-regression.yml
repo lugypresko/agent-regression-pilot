@@ -1,0 +1,81 @@
+name: agent-regression
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  gate-tests:
+    name: gate self-tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Unit tests for the gate
+        run: python -m unittest discover -s tests -v
+
+  regression-detected:
+    name: defect run must fail the gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Run pack with injected defects (expect REGRESSION, exit 1)
+        run: |
+          set +e
+          python runner.py --pack pack.json --out out --reviews reviews.example.json --json
+          code=$?
+          echo "gate_exit=$code"
+          if [ "$code" -ne 1 ]; then
+            echo "::error::expected exit 1 (REGRESSION), got $code"
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidence-regression
+          path: out/
+
+  control-clean:
+    name: unchanged control must pass the gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Run control pack (expect NO_REGRESSION_DETECTED, exit 0)
+        run: |
+          set +e
+          python runner.py --pack pack.control.json --out out_control --reviews reviews.example.json --json
+          code=$?
+          echo "gate_exit=$code"
+          if [ "$code" -ne 0 ]; then
+            echo "::error::expected exit 0 (NO_REGRESSION_DETECTED), got $code"
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidence-control
+          path: out_control/
+
+  review-required:
+    name: unreviewed subjective case must block release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Run control with no reviewer decisions (expect REVIEW_REQUIRED, exit 2)
+        run: |
+          set +e
+          python runner.py --pack pack.control.json --out out_review --json
+          code=$?
+          echo "gate_exit=$code"
+          if [ "$code" -ne 2 ]; then
+            echo "::error::expected exit 2 (REVIEW_REQUIRED), got $code"
+            exit 1
+          fi
