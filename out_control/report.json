@@ -1,5 +1,15 @@
 {
-  "workflow": "EXAMPLE — same pack, candidate identical to baseline (false-positive control)",
+  "started_at": "2026-11-16T22:09:49Z",
+  "pack": "pack.control.json",
+  "verdict": "NO_REGRESSION_DETECTED",
+  "exit_code": 0,
+  "reasons": [
+    "no case deteriorated; this is not a release approval"
+  ],
+  "contract_errors": [],
+  "executions": 120,
+  "expected_executions": 120,
+  "wall_s": 11.31,
   "configs": [
     {
       "id": "baseline",
@@ -14,60 +24,179 @@
   ],
   "cases": 20,
   "runs_per_case": 3,
-  "executions": 120,
-  "elapsed_s": 12.59,
-  "verdicts": {
-    "baseline": {
-      "C01": "PASS",
-      "C02": "PASS",
-      "C03": "PASS",
-      "C04": "PASS",
-      "C05": "PASS",
-      "C06": "PASS",
-      "C07": "PASS",
-      "C08": "PASS",
-      "C09": "PASS",
-      "C10": "PASS",
-      "C11": "PASS",
-      "C12": "PASS",
-      "C13": "PASS",
-      "C14": "PASS",
-      "C15": "PASS",
-      "C16": "PASS",
-      "C17": "PASS",
-      "C18": "PASS",
-      "C19": "UNCERTAIN",
-      "C20": "UNCERTAIN"
-    },
-    "candidate": {
-      "C01": "PASS",
-      "C02": "PASS",
-      "C03": "PASS",
-      "C04": "PASS",
-      "C05": "PASS",
-      "C06": "PASS",
-      "C07": "PASS",
-      "C08": "PASS",
-      "C09": "PASS",
-      "C10": "PASS",
-      "C11": "PASS",
-      "C12": "PASS",
-      "C13": "PASS",
-      "C14": "PASS",
-      "C15": "PASS",
-      "C16": "PASS",
-      "C17": "PASS",
-      "C18": "PASS",
-      "C19": "UNCERTAIN",
-      "C20": "UNCERTAIN"
-    }
-  },
   "regressions": [],
   "fixes": [],
   "failing_in_both": [],
-  "needs_human": [
-    "C19",
-    "C20"
-  ],
-  "gate": "CLEAR"
+  "unresolved": [],
+  "reviews_applied": {
+    "C19": "PASS",
+    "C20": "PASS"
+  },
+  "evidence_file": "out_control\\results.jsonl",
+  "per_case": {
+    "baseline": {
+      "C01": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C02": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C03": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C04": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C05": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C06": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C07": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C08": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C09": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C10": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C11": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C12": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C13": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C14": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C15": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C16": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C17": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C18": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C19": {
+        "verdict": "PASS",
+        "why": "reviewed by example.reviewer: reply draft in out/review-C19.md judged empathetic and specific"
+      },
+      "C20": {
+        "verdict": "PASS",
+        "why": "reviewed by example.reviewer: migration advice checked against the runbook in out/review-C20.md"
+      }
+    },
+    "candidate": {
+      "C01": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C02": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C03": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C04": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C05": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C06": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C07": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C08": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C09": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C10": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C11": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C12": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C13": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C14": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C15": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C16": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C17": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C18": {
+        "verdict": "PASS",
+        "why": "3/3 runs passed"
+      },
+      "C19": {
+        "verdict": "PASS",
+        "why": "reviewed by example.reviewer: reply draft in out/review-C19.md judged empathetic and specific"
+      },
+      "C20": {
+        "verdict": "PASS",
+        "why": "reviewed by example.reviewer: migration advice checked against the runbook in out/review-C20.md"
+      }
+    }
+  }
 }

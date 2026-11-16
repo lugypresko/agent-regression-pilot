@@ -1,0 +1,7 @@
+{
+  "note": "EXAMPLE reviewer decisions. A subjective case stays unresolved until a named reviewer records a decision with evidence.",
+  "decisions": {
+    "C19": {"decision": "PASS", "reviewer": "example.reviewer", "evidence": "reply draft in out/review-C19.md judged empathetic and specific", "at": "2026-11-16T22:40:00Z"},
+    "C20": {"decision": "PASS", "reviewer": "example.reviewer", "evidence": "migration advice checked against the runbook in out/review-C20.md", "at": "2026-11-16T22:41:00Z"}
+  }
+}

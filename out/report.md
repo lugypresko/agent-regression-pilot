@@ -1,7 +1,10 @@
-# Regression report — EXAMPLE — support ticket triage (illustrative data only, NOT a customer workflow)
+# Regression gate — REGRESSION
 
-- cases: 20 · runs/case: 3 · executions: 120 · wall: 11.65s
-- gate: **REGRESSION**
+- exit code: **1**
+- executions: 120 / 120 planned
+- wall: 11.81s
+- configs: baseline (EXAMPLE-BASELINE), candidate (EXAMPLE-CANDIDATE)
+- reasons: 3 case(s) deteriorated: C02, C05, C18
 
 | case | baseline | candidate |
 |---|---|---|
@@ -23,10 +26,10 @@
 | C16 | PASS | PASS |
 | C17 | PASS | PASS |
 | C18 | PASS | FAIL |
-| C19 | UNCERTAIN | UNCERTAIN |
-| C20 | UNCERTAIN | UNCERTAIN |
+| C19 | PASS | PASS |
+| C20 | PASS | PASS |
 
-Regressions (3): C02, C05, C18
-Fixes (0): none
-Failing in both (0): none
-Needs human review (2): C19, C20
+Regressions: C02, C05, C18
+Unresolved: none
+Fixes: none
+Failing in both: none

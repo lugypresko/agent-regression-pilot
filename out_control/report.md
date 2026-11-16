@@ -1,7 +1,10 @@
-# Regression report — EXAMPLE — same pack, candidate identical to baseline (false-positive control)
+# Regression gate — NO_REGRESSION_DETECTED
 
-- cases: 20 · runs/case: 3 · executions: 120 · wall: 12.59s
-- gate: **CLEAR**
+- exit code: **0**
+- executions: 120 / 120 planned
+- wall: 11.31s
+- configs: baseline (EXAMPLE-BASELINE), candidate (EXAMPLE-CONTROL)
+- reasons: no case deteriorated; this is not a release approval
 
 | case | baseline | candidate |
 |---|---|---|
@@ -23,10 +26,10 @@
 | C16 | PASS | PASS |
 | C17 | PASS | PASS |
 | C18 | PASS | PASS |
-| C19 | UNCERTAIN | UNCERTAIN |
-| C20 | UNCERTAIN | UNCERTAIN |
+| C19 | PASS | PASS |
+| C20 | PASS | PASS |
 
-Regressions (0): none
-Fixes (0): none
-Failing in both (0): none
-Needs human review (2): C19, C20
+Regressions: none
+Unresolved: none
+Fixes: none
+Failing in both: none
