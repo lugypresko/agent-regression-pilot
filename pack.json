@@ -1,0 +1,301 @@
+{
+  "workflow": "EXAMPLE — support ticket triage (illustrative data only, NOT a customer workflow)",
+  "runs": 3,
+  "timeout_s": 30,
+  "configs": [
+    {
+      "id": "baseline",
+      "name": "Current agent",
+      "identifier": "EXAMPLE-BASELINE",
+      "cmd": [
+        "python",
+        "agents/baseline.py"
+      ]
+    },
+    {
+      "id": "candidate",
+      "name": "Proposed agent (2 defects injected)",
+      "identifier": "EXAMPLE-CANDIDATE",
+      "cmd": [
+        "python",
+        "agents/candidate.py"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "C01",
+      "input": {
+        "subject": "Invoice #221 is wrong",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "billing",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C02",
+      "input": {
+        "subject": "I want a refund for March",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "billing",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C03",
+      "input": {
+        "subject": "Password reset not arriving",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C04",
+      "input": {
+        "subject": "App crashes on export",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C05",
+      "input": {
+        "subject": "URGENT: dashboard is down",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "high"
+        }
+      }
+    },
+    {
+      "id": "C06",
+      "input": {
+        "subject": "How do I cancel my plan",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "account",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C07",
+      "input": {
+        "subject": "Add three more seats",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "account",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C08",
+      "input": {
+        "subject": "Billing charge duplicated",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "billing",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C09",
+      "input": {
+        "subject": "Login fails after upgrade",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C10",
+      "input": {
+        "subject": "Upgrade plan question",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "account",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C11",
+      "input": {
+        "subject": "Refund request for duplicate charge",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "billing",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C12",
+      "input": {
+        "subject": "EXPORT bug: file is corrupt",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C13",
+      "input": {
+        "subject": "URGENT: login is broken for all users",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "high"
+        }
+      }
+    },
+    {
+      "id": "C14",
+      "input": {
+        "subject": "Cancel my subscription today",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "account",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C15",
+      "input": {
+        "subject": "Invoice shows the wrong VAT",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "billing",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C16",
+      "input": {
+        "subject": "Password policy is unclear",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C17",
+      "input": {
+        "subject": "Seat count wrong on our plan",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "account",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C18",
+      "input": {
+        "subject": "URGENT: billing portal is down",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "billing",
+          "priority": "high"
+        }
+      }
+    },
+    {
+      "id": "C19",
+      "input": {
+        "subject": "Your support was useless",
+        "body": ""
+      },
+      "expect": {
+        "type": "human",
+        "rubric": "is the reply empathetic and specific?"
+      }
+    },
+    {
+      "id": "C20",
+      "input": {
+        "subject": "Thoughts on our migration approach?",
+        "body": ""
+      },
+      "expect": {
+        "type": "human",
+        "rubric": "is the technical advice sound?"
+      }
+    }
+  ]
+}

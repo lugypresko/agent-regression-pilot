@@ -1,0 +1,77 @@
+{
+  "workflow": "EXAMPLE — support ticket triage (illustrative data only, NOT a customer workflow)",
+  "configs": [
+    {
+      "id": "baseline",
+      "name": "Current agent",
+      "identifier": "EXAMPLE-BASELINE"
+    },
+    {
+      "id": "candidate",
+      "name": "Proposed agent (2 defects injected)",
+      "identifier": "EXAMPLE-CANDIDATE"
+    }
+  ],
+  "cases": 20,
+  "runs_per_case": 3,
+  "executions": 120,
+  "elapsed_s": 11.65,
+  "verdicts": {
+    "baseline": {
+      "C01": "PASS",
+      "C02": "PASS",
+      "C03": "PASS",
+      "C04": "PASS",
+      "C05": "PASS",
+      "C06": "PASS",
+      "C07": "PASS",
+      "C08": "PASS",
+      "C09": "PASS",
+      "C10": "PASS",
+      "C11": "PASS",
+      "C12": "PASS",
+      "C13": "PASS",
+      "C14": "PASS",
+      "C15": "PASS",
+      "C16": "PASS",
+      "C17": "PASS",
+      "C18": "PASS",
+      "C19": "UNCERTAIN",
+      "C20": "UNCERTAIN"
+    },
+    "candidate": {
+      "C01": "PASS",
+      "C02": "FAIL",
+      "C03": "PASS",
+      "C04": "PASS",
+      "C05": "FAIL",
+      "C06": "PASS",
+      "C07": "PASS",
+      "C08": "PASS",
+      "C09": "PASS",
+      "C10": "PASS",
+      "C11": "PASS",
+      "C12": "PASS",
+      "C13": "PASS",
+      "C14": "PASS",
+      "C15": "PASS",
+      "C16": "PASS",
+      "C17": "PASS",
+      "C18": "FAIL",
+      "C19": "UNCERTAIN",
+      "C20": "UNCERTAIN"
+    }
+  },
+  "regressions": [
+    "C02",
+    "C05",
+    "C18"
+  ],
+  "fixes": [],
+  "failing_in_both": [],
+  "needs_human": [
+    "C19",
+    "C20"
+  ],
+  "gate": "REGRESSION"
+}

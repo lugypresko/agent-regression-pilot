@@ -1,0 +1,120 @@
+{"config": "baseline", "case": "C01", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 106, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C01", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C01", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C02", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 107, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C02", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 104, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C02", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C03", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C03", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C03", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C04", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C04", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C04", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C05", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "technical", "priority": "high"}}
+{"config": "baseline", "case": "C05", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "technical", "priority": "high"}}
+{"config": "baseline", "case": "C05", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 99, "exit": 0, "output": {"queue": "technical", "priority": "high"}}
+{"config": "baseline", "case": "C06", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 91, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C06", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C06", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C07", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C07", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 92, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C07", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C08", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 92, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C08", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C08", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 93, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C09", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 101, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C09", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C09", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C10", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 90, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C10", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 93, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C10", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 122, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C11", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 103, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C11", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 90, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C11", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 93, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C12", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C12", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C12", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C13", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 92, "exit": 0, "output": {"queue": "technical", "priority": "high"}}
+{"config": "baseline", "case": "C13", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "technical", "priority": "high"}}
+{"config": "baseline", "case": "C13", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 92, "exit": 0, "output": {"queue": "technical", "priority": "high"}}
+{"config": "baseline", "case": "C14", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C14", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C14", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C15", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C15", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C15", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "baseline", "case": "C16", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C16", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C16", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C17", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C17", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 92, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C17", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "baseline", "case": "C18", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 93, "exit": 0, "output": {"queue": "billing", "priority": "high"}}
+{"config": "baseline", "case": "C18", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "billing", "priority": "high"}}
+{"config": "baseline", "case": "C18", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "billing", "priority": "high"}}
+{"config": "baseline", "case": "C19", "run": 1, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 105, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C19", "run": 2, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 96, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C19", "run": 3, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 96, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C20", "run": 1, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 95, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C20", "run": 2, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 100, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "baseline", "case": "C20", "run": 3, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C01", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 99, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C01", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 91, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C01", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C02", "run": 1, "verdict": "FAIL", "why": "expected {\"priority\": \"low\", \"queue\": \"billing\"}", "ms": 95, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C02", "run": 2, "verdict": "FAIL", "why": "expected {\"priority\": \"low\", \"queue\": \"billing\"}", "ms": 109, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C02", "run": 3, "verdict": "FAIL", "why": "expected {\"priority\": \"low\", \"queue\": \"billing\"}", "ms": 112, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C03", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C03", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C03", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C04", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 104, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C04", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 99, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C04", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C05", "run": 1, "verdict": "FAIL", "why": "expected {\"priority\": \"high\", \"queue\": \"technical\"}", "ms": 96, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C05", "run": 2, "verdict": "FAIL", "why": "expected {\"priority\": \"high\", \"queue\": \"technical\"}", "ms": 94, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C05", "run": 3, "verdict": "FAIL", "why": "expected {\"priority\": \"high\", \"queue\": \"technical\"}", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C06", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C06", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 101, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C06", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 99, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C07", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C07", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C07", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C08", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C08", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C08", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C09", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 100, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C09", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C09", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 100, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C10", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C10", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C10", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C11", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 93, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C11", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C11", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C12", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C12", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 100, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C12", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 101, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C13", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 100, "exit": 0, "output": {"queue": "technical", "priority": "high"}}
+{"config": "candidate", "case": "C13", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "technical", "priority": "high"}}
+{"config": "candidate", "case": "C13", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 113, "exit": 0, "output": {"queue": "technical", "priority": "high"}}
+{"config": "candidate", "case": "C14", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 112, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C14", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 95, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C14", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C15", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C15", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C15", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C16", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 91, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C16", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 99, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C16", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 99, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C17", "run": 1, "verdict": "PASS", "why": "exact match", "ms": 94, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C17", "run": 2, "verdict": "PASS", "why": "exact match", "ms": 96, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C17", "run": 3, "verdict": "PASS", "why": "exact match", "ms": 98, "exit": 0, "output": {"queue": "account", "priority": "low"}}
+{"config": "candidate", "case": "C18", "run": 1, "verdict": "FAIL", "why": "expected {\"priority\": \"high\", \"queue\": \"billing\"}", "ms": 97, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C18", "run": 2, "verdict": "FAIL", "why": "expected {\"priority\": \"high\", \"queue\": \"billing\"}", "ms": 97, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C18", "run": 3, "verdict": "FAIL", "why": "expected {\"priority\": \"high\", \"queue\": \"billing\"}", "ms": 93, "exit": 0, "output": {"queue": "billing", "priority": "low"}}
+{"config": "candidate", "case": "C19", "run": 1, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 101, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C19", "run": 2, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 96, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C19", "run": 3, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 98, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C20", "run": 1, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 101, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C20", "run": 2, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 97, "exit": 0, "output": {"queue": "technical", "priority": "low"}}
+{"config": "candidate", "case": "C20", "run": 3, "verdict": "UNCERTAIN", "why": "subjective: routed to human review", "ms": 93, "exit": 0, "output": {"queue": "technical", "priority": "low"}}

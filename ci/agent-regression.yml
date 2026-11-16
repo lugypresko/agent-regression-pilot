@@ -1,0 +1,21 @@
+# Drop into .github/workflows/ of the customer repo.
+# Fails the job when the candidate config regresses a case that the baseline passed.
+name: agent-regression
+on:
+  pull_request:
+    paths: ["agents/**", "pack*.json"]
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Run pack (baseline vs candidate, 3 runs each)
+        run: python runner.py --pack pack.json --out out --fail-on-regression
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: agent-regression-evidence
+          path: out/

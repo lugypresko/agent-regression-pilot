@@ -1,0 +1,73 @@
+{
+  "workflow": "EXAMPLE — same pack, candidate identical to baseline (false-positive control)",
+  "configs": [
+    {
+      "id": "baseline",
+      "name": "Current agent",
+      "identifier": "EXAMPLE-BASELINE"
+    },
+    {
+      "id": "candidate",
+      "name": "Identical control",
+      "identifier": "EXAMPLE-CONTROL"
+    }
+  ],
+  "cases": 20,
+  "runs_per_case": 3,
+  "executions": 120,
+  "elapsed_s": 12.59,
+  "verdicts": {
+    "baseline": {
+      "C01": "PASS",
+      "C02": "PASS",
+      "C03": "PASS",
+      "C04": "PASS",
+      "C05": "PASS",
+      "C06": "PASS",
+      "C07": "PASS",
+      "C08": "PASS",
+      "C09": "PASS",
+      "C10": "PASS",
+      "C11": "PASS",
+      "C12": "PASS",
+      "C13": "PASS",
+      "C14": "PASS",
+      "C15": "PASS",
+      "C16": "PASS",
+      "C17": "PASS",
+      "C18": "PASS",
+      "C19": "UNCERTAIN",
+      "C20": "UNCERTAIN"
+    },
+    "candidate": {
+      "C01": "PASS",
+      "C02": "PASS",
+      "C03": "PASS",
+      "C04": "PASS",
+      "C05": "PASS",
+      "C06": "PASS",
+      "C07": "PASS",
+      "C08": "PASS",
+      "C09": "PASS",
+      "C10": "PASS",
+      "C11": "PASS",
+      "C12": "PASS",
+      "C13": "PASS",
+      "C14": "PASS",
+      "C15": "PASS",
+      "C16": "PASS",
+      "C17": "PASS",
+      "C18": "PASS",
+      "C19": "UNCERTAIN",
+      "C20": "UNCERTAIN"
+    }
+  },
+  "regressions": [],
+  "fixes": [],
+  "failing_in_both": [],
+  "needs_human": [
+    "C19",
+    "C20"
+  ],
+  "gate": "CLEAR"
+}

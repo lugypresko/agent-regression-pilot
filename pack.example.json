@@ -1,0 +1,167 @@
+{
+  "workflow": "EXAMPLE — support ticket routing (illustrative data, not a customer workflow)",
+  "runs": 3,
+  "timeout_s": 30,
+  "configs": [
+    {
+      "id": "baseline",
+      "name": "Current production agent",
+      "identifier": "INSTRUMENT-PENDING",
+      "cmd": [
+        "python",
+        "agents/baseline.py"
+      ]
+    },
+    {
+      "id": "candidate",
+      "name": "Proposed agent (2 defects injected)",
+      "identifier": "INSTRUMENT-PENDING",
+      "cmd": [
+        "python",
+        "agents/candidate.py"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "C01",
+      "input": {
+        "subject": "Invoice #221 is wrong",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "billing",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C02",
+      "input": {
+        "subject": "I want a refund for March",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "billing",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C03",
+      "input": {
+        "subject": "Password reset not arriving",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C04",
+      "input": {
+        "subject": "App crashes on export",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C05",
+      "input": {
+        "subject": "URGENT: dashboard is down",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "high"
+        }
+      }
+    },
+    {
+      "id": "C06",
+      "input": {
+        "subject": "How do I cancel my plan",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "account",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C07",
+      "input": {
+        "subject": "Add three more seats",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "account",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C08",
+      "input": {
+        "subject": "Billing charge duplicated",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "billing",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C09",
+      "input": {
+        "subject": "Login fails after upgrade",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "technical",
+          "priority": "low"
+        }
+      }
+    },
+    {
+      "id": "C10",
+      "input": {
+        "subject": "Upgrade plan question",
+        "body": ""
+      },
+      "expect": {
+        "type": "exact",
+        "json": {
+          "queue": "account",
+          "priority": "low"
+        }
+      }
+    }
+  ]
+}
